@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    background-image: url("https://i.imgur.com/oLSRUIm.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    background-color:rgb(24, 187, 252);
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: 'Hind', sans-serif;
+    border: 2px solid #f803fc;
+    cursor: pointer;
+    box-shadow: 0 0 15px 5px;
+}
+
+.startBtn {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxy {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    padding: 150px 0px 0px 0px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(24, 187, 252);
+    text-shadow: 1px 1px #f803fc;
+    font-family: 'Hind', sans-serif;
+}
+
+.p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(24, 187, 252);
+    text-shadow: 1px 1px #f803fc;
+    font-family: 'Hind', sans-serif; 
+}
+
+.theFinalCountdown {
+    text-align: center;
+    color: rgb(24, 187, 252);
+    text-shadow: 1px 1px #f803fc;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 20px 0px;
+}
+
+.pregunta {
+    text-align: center;
+    color: rgb(24, 187, 252);
+    text-shadow: 1px 1px #f803fc;
+    font-family: 'Hind', sans-serif;
+    font-size: 28px;
+}
+
+.answerBtn {
+    background-color:rgb(24, 187, 252);
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Hind', sans-serif;
+    border: 2px solid #f803fc;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.answers {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
