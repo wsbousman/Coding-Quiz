@@ -180,4 +180,3 @@ function endQuiz () {
 document.getElementById('startBtn').addEventListener("click", timer);
 
 
-
