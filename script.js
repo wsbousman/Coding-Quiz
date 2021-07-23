@@ -9,8 +9,6 @@ let boxy = document.getElementById('boxy');
 let answers = document.getElementById('answers');
 let remainder = 120;
 let score = 0;
-// localStorage.setItem("score", "0");
-// let score = localStorage.getItem("score");
 
 function decrementRemainder () {
     remainder = remainder - 10;
@@ -175,6 +173,20 @@ function endQuiz () {
     pregunta.innerText = "les jeux son fait. you scored " + score;
     document.getElementById("theFinalCountdown").style.visibility = "hidden";
     document.getElementById('scoreInputWrapper').style.visibility = 'visible';
+    document.getElementById('submitBtnWrapper').style.visibility = 'visible';
 };
 
+let scoreInput = document.querySelector("input[id='scoreInput']").value;
+
+// need to set/get score in local storage
+
+function scoreLog () {
+    localStorage.setItem("input[id='scoreInput']", score());
+    scoreDisplay ();
+  };
+function scoreDisplay () {
+    alert("")
+}
+
+document.getElementById('scoreLog').addEventListener("click", scoreLog);
 document.getElementById('startBtn').addEventListener("click", timer);
