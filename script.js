@@ -168,7 +168,6 @@ function question6 () {
 };
 
 function endQuiz () {
-    // document.getElementById('boxy').style.visibility = "hidden";
     document.getElementById('button1').style.visibility = "hidden";
     document.getElementById('button2').style.visibility = "hidden";
     document.getElementById('button3').style.visibility = "hidden";
@@ -177,6 +176,4 @@ function endQuiz () {
     document.getElementById("theFinalCountdown").style.visibility = "hidden";
     document.getElementById('scoreInputWrapper').style.visibility = 'visible';
 };
-
-document.getElementById('startBtn').addEventListener("click", timer);
 
