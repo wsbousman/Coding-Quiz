@@ -90,3 +90,24 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+.scoreInputWrapper {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+.scoreInput {
+    appearance: none;
+    background-color: rgb(242, 0, 250);
+    color: rgb(0, 15, 20);
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(0, 198, 248);
+    border: 2px solid rgb(0, 198, 248);
+    border-radius: 8px;
+    text-align: center;
+
+}
