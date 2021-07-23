@@ -175,6 +175,7 @@ function endQuiz () {
     document.getElementById('button4').style.visibility = "hidden";
     pregunta.innerText = "les jeux son fait. you scored " + score;
     document.getElementById("theFinalCountdown").style.visibility = "hidden";
+    document.getElementById('scoreInputWrapper').style.visibility = 'visible';
 };
 
 document.getElementById('startBtn').addEventListener("click", timer);
