@@ -177,3 +177,4 @@ function endQuiz () {
     document.getElementById('scoreInputWrapper').style.visibility = 'visible';
 };
 
+document.getElementById('startBtn').addEventListener("click", timer);
